@@ -1,0 +1,25 @@
+body {
+    background-color: cadetblue;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.texteria__input {
+    border: #ffffff solid 1px;
+    border-radius: 15px;
+}
+
+.texteria__output {
+    border: #ffffff solid 1px;
+    border-radius: 15px;
+}
+
+.before__texteria-text {
+    text-align: center;
+    margin-bottom: 15px;
+}
