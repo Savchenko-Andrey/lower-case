@@ -12,11 +12,13 @@ body {
 .texteria__input {
     border: #ffffff solid 1px;
     border-radius: 15px;
+    padding: 10px;
 }
 
 .texteria__output {
     border: #ffffff solid 1px;
     border-radius: 15px;
+    padding: 10px;
 }
 
 .before__texteria-text {
