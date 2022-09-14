@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,19 +8,51 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
-        <div class="container">
-            <div>
-                <h2 class="before__texteria-text">INPUT TEXT</h2>
-                <textarea class="texteria__input" name="" id="" cols="50" rows="40"></textarea>
-            </div>
-            <div class="relative">
-                <h2 class="before__texteria-text">OUTPUT TEXT</h2>
-                <textarea class="texteria__output" name="" id="output" cols="50" rows="40"></textarea>
-                <button id="copy" class="btn">Copy</button>
-            </div>
+<header>
+    <div class="container">
+        <div class="header__container">
+            <h1 class="hidline">To Lower Case</h1>
+            <a class="header__link" href="https://github.com/Savchenko-Andrey/lower-case">
+                <img class="header__icon" src="./img/icons/github.svg" alt="github" width="30">
+                <div class="decor"></div>
+                <img class="header__icon" src="./img/icons/linkedin.svg" alt="link" width="30">
+            </a>
         </div>
-    </form>
+    </div>
+</header>
+<div class="container">
+    <div class="relative">
+        <h2 class="before__texteria-text">INPUT TEXT</h2>
+        <form action="">
+            <textarea class="texteria__input" name="" id="" cols="60" rows="40"></textarea>
+            <button class="btn__clear" type="reset">Clear</button>
+        </form>
+    </div>
+    <div class="img">
+        <img class="img" src="./img/sticker.webp" alt="sticker" width="150">
+        <p class="title">Capital letters are omitted automatically, 
+            paste text and copy!</p>
+    </div>
+    <div class="relative">
+        <h2 class="before__texteria-text">OUTPUT TEXT</h2>
+        <textarea class="texteria__output" name="" id="output" cols="60" rows="40"></textarea>
+        <button id="copy" class="btn__copy" type="reset">
+            <img src="./img/icons/content_copy.svg" alt="copy">
+        </button>
+    </div>
+</div>
+<footer>
+    <div class="container">
+        <div class="header__container">
+            <h3 class="footer__title">©  2022 | All Rights Reserved | Developed with | <span href="https://goit.ua/">GoIT Students</span></h3>
+            <a class="header__link" href="https://github.com/Savchenko-Andrey/lower-case">
+                <img class="header__icon" src="./img/icons/github.svg" alt="github" width="30">
+                <div class="decor"></div>
+                <img class="header__icon" src="./img/icons/linkedin.svg" alt="link" width="30">
+            </a>
+        </div>
+    </div>
+</footer>
     <script src="./index.js"></script>
 </body>
 </html>
